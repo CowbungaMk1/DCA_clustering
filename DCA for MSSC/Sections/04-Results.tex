@@ -1,0 +1,57 @@
+% Results
+\section{Experiments}
+The following experiments were constructed to compare the K-means algorithm \ref{alg:kmeans} and the discussed DCA \ref{alg:DCA}. Experiment one tests the ability of each clustering algorithm to cluster in $\mathbb{R}^2$. Experiment two used the  1984 Congressional House-Votes  (VOTES) dataset \cite{noauthor_cluster_nodate}. In each case, the number of correctly grouped entities of the total number are reported.
+\begin{@twocolumntrue}
+\begin{table*}[ht!]
+    \centering
+    \caption{Experimental results for comparing the two clustering algorithms and initialization strategies. Results shown are for the average of $200$ cycles. Each the  initialization type $INIT$ number of elements $n$, the dimension in $\mathbb{R}^d$ and the number of clusters $c$ }
+    \begin{tabular}{lllllllllll}
+    \hline
+        Experimental Results & ~ & ~ & ~ & ~ & K-Means & ~ & ~ & DCA & ~ &   \\ \hline
+        Dataset & $n$ & $c$ & $d$ & $INIT$ & Accuracy & Time(s) & Iterations & Accuracy & Time(s) & Iterations  \\ 
+        VOTE & 435 & 2 & 17 & Random & \ 87.23 & \ 4.11E-04 & \ 4.05 & 76.27 & 0.5978 & 229.41  \\ 
+        VOTE & 435 & 2 & 17 & Heuristic & \ 87.70 & \ 1.66E-03 & \ 4.19 & 84.56 & 0.5250 & 201.21  \\ 
+        2D  & 200 & 2 & 2 & Random & \ 77.14 & \ 4.74E-04 & \  5.06 & 71.12 & 0.3794 & 318.53  \\ 
+        2D & 200 & 2 & 2 & Heuristic & \ 77.11 & \ 5.69E-04 & \ 5.79 & 73.9 & 0.3116 & 260.89  \\ \hline
+    \end{tabular}
+    \label{tab:exresults}
+\end{table*}
+\end{@twocolumntrue}
+\subsection{Clustering in $\mathbb{R}^2$}
+For the following experiment, 200 points were normally distributed about 2 randomly chosen centroids in a box $[-5,5]$. The number of points in each were randomly selected between $[50-150]$ at each iterations. 
+
+\subsection{Party assignment}
+The VOTES dataset consist of 435 data points with representative voting results on 17 actions and two possible political parties. This is formulated as each data point being a size 17 array with $1$, $-1$, and $0$ representing voting yay, nay, or unassigned.  
+
+
+
+% \newpage
+
+
+%This section introduces the 2-d triple cluster and the Voting predictions
+% do experiments with initialization 
+
+
+
+% \begin{table}[!htpb]
+%     \caption{Clustering Algorithm Comparison.
+% 	\textbf{R$_{max}$}: the performance in GFlops for the largest problem run on a machine; \textbf{N$_{max}$}: the size of the largest problem run on a machine; \textbf{N$_{1/2}$}: the size where half the \textbf{R$_{max}$} execution rate is achieved; \textbf{R$_{peak}$}: the theoretical peak performance in GFlops.}
+%     \label{tab:table-01}
+%     \centering
+%     \begin{tabularx}{\linewidth}{rccccccccccc}
+%         \toprule
+%         \textbf{Linpack	Benchmark}& Proc. & \textbf{R$_{max}$} & \textbf{N$_{max}$} & \textbf{R$_{peak}$} \\ 
+%         (Dataset) & or Cores	& $N$ & $C$ & $D$ & $init$\\ [0.25ex] 
+%         \midrule
+%         Thinking Machine CM-5 & 32 & 1,900 & 9216 & 4& \\
+%         Pentium 4 3.0 GHz & 1 & 4,730 & 7600 & 6& \\
+ 
+%         & & & & 14,6 \scriptsize{(64b)} \\
+%         Thinking Machine SD-3 & 36 & 1,120 & 6728 & 3 \\
+%         \bottomrule
+%     \end{tabularx}
+% \end{table}
+
+% Please add the following required packages to your document preamble:
+% \usepackage[table,xcdraw]{xcolor}
+% Beamer presentation requires \usepackage{colortbl} instead of \usepackage[table,xcdraw]{xcolor}

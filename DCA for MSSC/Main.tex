@@ -1,0 +1,59 @@
+% Author Name: José Areia 
+% Author Contact: jose.apareia@gmail.com
+% Version: 1.0.3 - 18/04/2025
+% Public Repository: https://github.com/joseareia/nob-article
+
+% Packages & Document Configurations
+\documentclass[twocolumn]{NobArticle}
+% \runninghead{MSSC DCA YMCA}
+\footertext{\textit{Journal X} (2025) 12:684}
+
+% Title
+\title{Breif Introduction to MSSC Solving Using DCA, Math 515 66}
+
+% Authors
+\author{
+    Ian Picklo\textsuperscript{1}}
+% \begin{figure}
+%     \centering
+%     \includegraphics[width=1\linewidth]{alg1.png}
+%     \caption{Enter Caption}
+%     \label{fig:enter-label}
+% \end{figure}
+
+% Affiliations
+\date{
+    \textsuperscript{\textbf{1}}
+    College of Engineering and Mines, The University of North Dakota \\
+}
+
+% Abstract
+\renewcommand{\maketitlehookd}{%
+% \begin{abstract}
+%     \noindent 
+%     DCA, MSSC, and me
+%     \medskip
+
+%     \small{\textbf{Index Terms:} Clustering Algorithms, Difference of Convex Functions.}
+% \end{abstract}
+}
+
+\begin{document}
+
+\small
+\maketitle
+
+\input{Sections/01-Introduction}
+\input{Sections/02-Background}
+\input{Sections/03-Methods}
+\input{Sections/04-Results}
+\input{Sections/05-Discussion}
+\input{Sections/06-Conclusion}
+
+% \section*{Acknowledgements}
+% This research received support during the XXX course, instructed by Professor XXX, PhD at the School of XXX, XXX.
+\bibliographystyle{ieeetr}
+\bibliography{Bibliography/Bibliography}
+% \printbibliography
+
+\end{document}

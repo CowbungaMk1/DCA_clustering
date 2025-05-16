@@ -1,0 +1,42 @@
+\begin{thebibliography}{1}
+
+\bibitem{an_minimum_2009}
+L.~T.~H. An and P.~D. Tao, ``Minimum sum-of-squares clustering by {DC}
+  programming and {DCA},'' in {\em Proceedings of the {Intelligent} computing
+  5th international conference on {Emerging} intelligent computing technology
+  and applications}, {ICIC}'09, (Berlin, Heidelberg), pp.~327--340,
+  Springer-Verlag, Sept. 2009.
+
+\bibitem{macqueen_methods_1967}
+J.~MacQueen, ``Some methods for classification and analysis of multivariate
+  observations,'' in {\em Proceedings of the {Fifth} {Berkeley} {Symposium} on
+  {Mathematical} {Statistics} and {Probability}, {Volume} 1: {Statistics}},
+  vol.~5.1, pp.~281--298, University of California Press, Jan. 1967.
+
+\bibitem{jain_data_1999}
+A.~K. Jain, M.~N. Murty, and P.~J. Flynn, ``Data clustering: a review,'' {\em
+  ACM Computing Surveys}, vol.~31, pp.~264--323, Sept. 1999.
+
+\bibitem{tao_algorithms_1986}
+P.~D. Tao and E.~B. Souad, ``Algorithms for {Solving} a {Class} of {Nonconvex}
+  {Optimization} {Problems}. {Methods} of {Subgradients},'' in {\em
+  North-{Holland} {Mathematics} {Studies}} (J.~B. Hiriart-Urruty, ed.),
+  vol.~129 of {\em Fermat {Days} 85: {Mathematics} for {Optimization}},
+  pp.~249--271, North-Holland, Jan. 1986.
+
+\bibitem{tao_convex_1997}
+P.~D. Tao, ``{CONVEX} {ANALYSIS} {APPROACH} {TO} {D}. {C}. {PROGRAMMING}:
+  {THEORY}, {ALGORITHMS} {AND} {APPLICATIONS},'' 1997.
+
+\bibitem{Ordin_heuristic_2015}
+B.~Ordin and A.~M. Bagirov, ``A heuristic algorithm for solving the minimum
+  sum-of-squares clustering problems,'' 2015.
+
+\bibitem{artacho_boosted_nodate}
+F.~J.~A. Artacho and P.~T. Vuong, ``The {Boosted} {DC} {Algorithm} for
+  nonsmooth functions,''
+
+\bibitem{noauthor_cluster_nodate}
+``Cluster {Analysis} of {Roll} {Call} {Votes} in {U}.{S}. {House}.''
+
+\end{thebibliography}
